@@ -18,6 +18,10 @@ class SlingShot{
         this.sling.bodyA = null;
     }
 
+    attach(obj1){
+        this.sling.bodyA=obj1;
+    }
+
     display(){
         image(this.sling1,200,20);
         image(this.sling2,170,20);
